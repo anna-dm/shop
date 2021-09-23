@@ -3,9 +3,7 @@
     <div class="row">
       <div class="col-8"></div>
       <div class="col-4 text-center">
-        <div>
-          Юбка из смесового хлопка с контрастными вставками {{ itemId }}
-        </div>
+        <div>Юбка c вставками {{ itemId }}</div>
         <div>Цена</div>
         <div>Цвет</div>
       </div>
