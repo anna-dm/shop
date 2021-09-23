@@ -6,7 +6,7 @@
       </div>
 
       <q-toolbar class="bg-grey-4 text-black">
-        <q-btn stretch flat label="Selena" />
+        <q-btn stretch flat label="Selena" type="a" :to="{ name: 'index' }" />
         <q-btn
           stretch
           flat
@@ -54,8 +54,8 @@
             stretch
             flat
             label="ПОКУПАТЕЛЯМ"
-            @mouseover="menu = 'buyers'"
-            @mouseleave="menu = ''"
+            type="a"
+            :to="{ name: 'contact' }"
           />
         </div>
       </q-toolbar>
